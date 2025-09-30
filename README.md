@@ -1,6 +1,2 @@
 # Cybersecurity-Portfolio
-My nursing background has established strong written and verbal communication skills, candour and a curious nature. 
-My personal values that have transferred into my professional career are care and commitment.
-I have always had a drive to learn and curiousity for cybersecurity.
-I have decided to pursue this in my free time whilst working in healthcare full time. 
-My curisosity was well founded and the skills I have long establishsed in healthcare and proving invalubale in this learning.
+My nursing background has equipped me with strong written and verbal communication skills, candor, and a naturally curious mindset. Core values such as care and commitment have consistently guided my professional journey. My curiosity about cybersecurity led me to begin studying the field in my free time while continuing to work full-time in healthcare. The skills I developed through years in healthcare—critical thinking, attention to detail, and resilience under pressure—are proving invaluable as I expand my knowledge and pursue a career in cybersecurity.
