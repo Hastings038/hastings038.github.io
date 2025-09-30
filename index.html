@@ -3,114 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Hastings Portfolio</title>
+    <title>Your Name - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        /* Reset and basic styles */
+        /* Global Styles */
         body {
+            font-family: 'Inter', sans-serif;
             margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
+            padding: 0;
+            background-color: #f4f4f9;
             color: #333;
         }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
+        a {
+            text-decoration: none;
+            color: inherit;
         }
 
+        /* Header */
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
         header h1 {
             margin: 0;
             font-size: 2.5em;
         }
-
         header p {
             font-size: 1.2em;
         }
 
-        nav {
+        /* Hero Section */
+        .hero {
+            background-color: #ffffff;
+            padding: 40px 20px;
             text-align: center;
-            margin: 20px 0;
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        .hero a {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
         }
 
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #4CAF50;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        h2 {
-            color: #4CAF50;
-        }
-
-        ul.projects {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul.projects li {
-            background: white;
-            margin-bottom: 15px;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-        }
-
-        ul.projects li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-
+        /* Footer */
         footer {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
             text-align: center;
-            padding: 20px;
-            color: #777;
-            border-top: 1px solid #ddd;
-            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
+
     <header>
         <h1>Michael Hastings</h1>
-        <p>Welcome to my portfolio, I’m an aspiring cybersecurity analyst!</p>
+        <p>Web Developer | Designer | Problem Solver</p>
     </header>
 
-    <nav>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul class="projects">
-            <li><a href="https://github.com/username/project1" target="_blank">Project 1</a> </li>
-            <li><a href="https://github.com/username/project2" target="_blank">Project 2</a> </li>
-            <li><a href="https://github.com/username/project3" target="_blank">Project 3</a> </li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:youremail@example.com">email</a></p>
-        <p>GitHub: <a href="https://github.com/hastings038" target="_blank">github.com/hastings038</a></p>
-    </section>
+    <div class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my projects and learn more about my work.</p>
+        <a href="#projects">View Projects</a>
+    </div>
 
     <footer>
-        &copy; 2025 Michael Hastings. All rights reserved.
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
+
